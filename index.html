@@ -258,20 +258,7 @@ Redirecting to Telegram in <span id="count">30</span> seconds...
 
 <script>
 
-/* COUNTDOWN */
 
-let time = 30;
-
-let timer = setInterval(() => {
-  time--;
-  document.getElementById("count").innerText = time;
-
-  if (time <= 0) {
-    clearInterval(timer);
-    document.getElementById("count").innerText = "Time Finished";
-  }
-
-}, 1000);
 
 /* LIVE JOIN POPUP */
 
@@ -325,6 +312,7 @@ document.getElementById("seats").innerText=seats;
 
 </body>
 </html>
+
 
 
 
